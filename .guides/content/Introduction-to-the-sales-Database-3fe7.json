@@ -1,0 +1,17 @@
+{
+	"id": "3fe7e054-f578-ae89-6acf-265bc48c3739",
+	"title": "Introduction to the sales Database",
+	"files": [
+		{
+			"path": "https://{{domain3050}}/",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "2-panels"
+}

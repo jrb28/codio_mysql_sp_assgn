@@ -1,0 +1,56 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-1008286212",
+	"source": {
+		"name": "Exercise 8",
+		"showName": true,
+		"instructions": "Create a stored procedure, named <code>spGetOrderWithItem</code>, that takes as input an item <code>id</code> and outputs the order <code>id</code>s for orders that included that item, in ascending order of order <code>id</code>.",
+		"command": "mysql -e  \"USE sales; CALL spGetOrderWithItem(0)\"",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "order_id\n34\n51\n87\n",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "preview",
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "terminal",
+					"content": "mysql-workbench &"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

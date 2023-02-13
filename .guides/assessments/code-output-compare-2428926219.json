@@ -1,0 +1,56 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-2428926219",
+	"source": {
+		"name": "Check Stored Procedure spGetNextCount",
+		"showName": true,
+		"instructions": "",
+		"command": "mysql -e \"USE w2la; CALL spGetNextCount()\"",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 1,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "orig\tdest_count\nA\t3\nB\t3\nD\t3\nDE\t3\nLA\t2\nLR\t3\nOK\t3\nSD\t2\nSL\t3\nW\t3\n",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "preview",
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "terminal",
+					"content": "mysql-workbench &"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

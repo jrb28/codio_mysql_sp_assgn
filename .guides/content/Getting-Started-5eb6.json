@@ -1,0 +1,22 @@
+{
+	"chapter": false,
+	"closeTerminalSession": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#terminal: mysql-workbench &",
+			"action": "open"
+		},
+		{
+			"path": "#preview: https://{{domain3050}}/",
+			"action": "open"
+		}
+	],
+	"id": "5eb6898c-82ee-c13d-2329-656550ae65c9",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Getting Started",
+	"type": "page"
+}

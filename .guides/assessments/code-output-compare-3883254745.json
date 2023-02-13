@@ -1,0 +1,56 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-3883254745",
+	"source": {
+		"name": "Check Stored Procedure spGetLinks",
+		"showName": true,
+		"instructions": "",
+		"command": "mysql -e \"USE w2la; CALL spGetLinks();\"",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 1,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "orig\tdest\tmiles\nA\tB\t677\nA\tDE\t449\nA\tOK\t504\nB\tA\t904\nB\tLA\t115\nB\tSD\t677\nD\tLR\t319\nD\tSD\t1358\nD\tW\t1340\nDE\tA\t449\nDE\tB\t904\nDE\tSL\t851\nLA\tB\t115\nLA\tSD\t120\nLR\tD\t319\nLR\tOK\t389\nLR\tW\t1012\nOK\tA\t504\nOK\tLR\t389\nOK\tSL\t489\nSD\tD\t1358\nSD\tLA\t120\nSL\tDE\t851\nSL\tOK\t498\nSL\tW\t878\nW\tD\t1340\nW\tLR\t1012\nW\tSL\t878\n",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "preview",
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "terminal",
+					"content": "mysql-workbench &"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

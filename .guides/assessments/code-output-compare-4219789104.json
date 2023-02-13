@@ -1,0 +1,56 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-4219789104",
+	"source": {
+		"name": "Exercise 9",
+		"showName": true,
+		"instructions": "Create a stored procedure, named <code>spGetItemSalesCount</code>, that takes as input an item <code>id</code> (<code>INT</code> dta field) and that outputs the item <code>id</code> and the number of orders that contain it, in that order.   \n\n",
+		"command": "mysql -e \"USE sales; CALL spGetItemSalesCount(0)\"",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "item_id\tCOUNT(*)\n0\t3\n",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "preview",
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "terminal",
+					"content": "mysql-workbench &"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

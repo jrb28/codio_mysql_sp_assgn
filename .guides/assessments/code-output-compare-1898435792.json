@@ -1,0 +1,56 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-1898435792",
+	"source": {
+		"name": "Exercise 5",
+		"showName": true,
+		"instructions": "Repeat Exercise 3, except code the new stored procedure, named <code>spGetItemsCat</code>, with an input argument that receives a <code>VARCHAR</code> argument to be compared with the values in the <code>category</code> field and that returns output for the rows/records whose <code>category</code> value matches the argument sent to the stored procedure.  Again, output the results in ascending order of the <code>id</code> field.",
+		"command": "mysql -e 'USE sales;  CALL spGetItemsCat(\"book\");'",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "id\tdescription\tprice\tcategory\tyear\tauthor\tstudio\n0\tA Tale of Two Cities\t29.16\tbook\t1859\tCharles Dickens\tNULL\n1\tThe Little Prince (Le Petit Prince)\t24.83\tbook\t1943\tAntoine de Saint-Exupéry\tNULL\n2\tHarry Potter and the Philosopher's Stone\t21.2\tbook\t1997\tJ. K. Rowling\tNULL\n3\tAnd Then There Were None\t5.93\tbook\t1939\tAgatha Christie\tNULL\n4\tDream of the Red Chamber (紅樓夢)\t29.49\tbook\t1791\tCao Xueqin\tNULL\n5\tThe Hobbit\t10.01\tbook\t1937\tJ. R. R. Tolkien\tNULL\n6\tThe Lion, the Witch and the Wardrobe\t9.53\tbook\t1950\tC. S. Lewis\tNULL\n7\tShe: A History of Adventure\t6.38\tbook\t1887\tH. Rider Haggard\tNULL\n8\tVardi Wala Gunda\t10.19\tbook\t1992\tVed Prakash Sharma\tNULL\n9\tThe Da Vinci Code\t29.32\tbook\t2003\tDan Brown\tNULL\n10\tHarry Potter and the Chamber of Secrets\t19.35\tbook\t1998\tJ. K. Rowling\tNULL\n11\tHarry Potter and the Prisoner of Azkaban\t12.7\tbook\t1999\tJ. K. Rowling\tNULL\n12\tHarry Potter and the Goblet of Fire\t20.25\tbook\t2000\tJ. K. Rowling\tNULL\n13\tHarry Potter and the Order of the Phoenix\t19.93\tbook\t2003\tJ. K. Rowling\tNULL\n14\tHarry Potter and the Half-Blood Prince\t18.3\tbook\t2005\tJ. K. Rowling\tNULL\n15\tHarry Potter and the Deathly Hallows\t11.67\tbook\t2007\tJ. K. Rowling\tNULL\n16\tThe Alchemist (O Alquimista)\t26.46\tbook\t1988\tPaulo Coelho\tNULL\n17\tThe Catcher in the Rye\t20.55\tbook\t1951\tJ. D. Salinger\tNULL\n18\tThe Bridges of Madison County\t23.87\tbook\t1992\tRobert James Waller\tNULL\n19\tBen-Hur: A Tale of the Christ\\n\t13.92\tbook\t1880\tLew Wallace\\n\tNULL\n20\tYou Can Heal Your Life\\n\t16.35\tbook\t1984\tLouise Hay\\n\tNULL\n21\tOne Hundred Years of Solitude (Cien años de soledad)\t7.89\tbook\t1967\tGabriel García Márquez\tNULL\n22\tLolita\t14.85\tbook\t1955\tVladimir Nabokov\tNULL\n23\tHeidi\t11.85\tbook\t1880\tJohanna Spyri\tNULL\n24\tThe Common Sense Book of Baby and Child Care\t8.38\tbook\t1946\tBenjamin Spock\tNULL\n25\tAnne of Green Gables\t18.69\tbook\t1908\tLucy Maud Montgomery\tNULL\n26\tBlack Beauty\t27.75\tbook\t1877\tAnna Sewell\tNULL\n27\tThe Name of the Rose (Il Nome della Rosa)\t18.35\tbook\t1980\tUmberto Eco\tNULL\n28\tThe Eagle Has Landed\t12.83\tbook\t1975\tJack Higgins\tNULL\n29\tWatership Down\t20.81\tbook\t1972\tRichard Adams\tNULL\n30\tThe Hite Report\t19.2\tbook\t1976\tShere Hite\tNULL\n31\tCharlotte's Web\t24.16\tbook\t1952\tE. B. White; illustrated by Garth Williams\tNULL\n32\tThe Ginger Man\t22.87\tbook\t1955\tJ. P. Donleavy\tNULL\n",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "preview",
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "terminal",
+					"content": "mysql-workbench &"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

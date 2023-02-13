@@ -1,0 +1,56 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-773725677",
+	"source": {
+		"name": "Exercise 3",
+		"showName": true,
+		"instructions": "Create a stored procedure named <code>spGetBookItems</code> in the <code>sales</code> database that retrieves all items whose <code>category</code> field is coded as a <code>book</code> in ascending order of the <code>id</code> field.  Use the <code>*</code> operator to select all fields from the table.",
+		"command": "mysql -e \"USE sales; CALL spGetBookItems();\"",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "id      description     price   category        year    author  studio\n0       A Tale of Two Cities    29.16   book    1859    Charles Dickens NULL\n1       The Little Prince (Le Petit Prince)     24.83   book    1943    Antoine de Saint-Exupéry        NULL\n2       Harry Potter and the Philosopher's Stone        21.2    book    1997    J. K. Rowling   NULL\n3       And Then There Were None        5.93    book    1939    Agatha Christie NULL\n4       Dream of the Red Chamber (紅樓夢)       29.49   book    1791    Cao Xueqin      NULL\n5       The Hobbit      10.01   book    1937    J. R. R. Tolkien        NULL\n6       The Lion, the Witch and the Wardrobe    9.53    book    1950    C. S. Lewis     NULL\n7       She: A History of Adventure     6.38    book    1887    H. Rider Haggard        NULL\n8       Vardi Wala Gunda        10.19   book    1992    Ved Prakash Sharma      NULL\n9       The Da Vinci Code       29.32   book    2003    Dan Brown       NULL\n10      Harry Potter and the Chamber of Secrets 19.35   book    1998    J. K. Rowling   NULL\n11      Harry Potter and the Prisoner of Azkaban        12.7    book    1999    J. K. Rowling   NULL\n12      Harry Potter and the Goblet of Fire     20.25   book    2000    J. K. Rowling   NULL\n13      Harry Potter and the Order of the Phoenix       19.93   book    2003    J. K. Rowling   NULL\n14      Harry Potter and the Half-Blood Prince  18.3    book    2005    J. K. Rowling   NULL\n15      Harry Potter and the Deathly Hallows    11.67   book    2007    J. K. Rowling   NULL\n16      The Alchemist (O Alquimista)    26.46   book    1988    Paulo Coelho    NULL\n17      The Catcher in the Rye  20.55   book    1951    J. D. Salinger  NULL\n18      The Bridges of Madison County   23.87   book    1992    Robert James Waller     NULL\n19      Ben-Hur: A Tale of the Christ\\n 13.92   book    1880    Lew Wallace\\n   NULL\n20      You Can Heal Your Life\\n        16.35   book    1984    Louise Hay\\n    NULL\n21      One Hundred Years of Solitude (Cien años de soledad)    7.89    book    1967    Gabriel García Márquez  NULL\n22      Lolita  14.85   book    1955    Vladimir Nabokov        NULL\n23      Heidi   11.85   book    1880    Johanna Spyri   NULL\n24      The Common Sense Book of Baby and Child Care    8.38    book    1946    Benjamin Spock  NULL\n25      Anne of Green Gables    18.69   book    1908    Lucy Maud Montgomery    NULL\n26      Black Beauty    27.75   book    1877    Anna Sewell     NULL\n27      The Name of the Rose (Il Nome della Rosa)       18.35   book    1980    Umberto Eco     NULL\n28      The Eagle Has Landed    12.83   book    1975    Jack Higgins    NULL\n29      Watership Down  20.81   book    1972    Richard Adams   NULL\n30      The Hite Report 19.2    book    1976    Shere Hite      NULL\n31      Charlotte's Web 24.16   book    1952    E. B. White; illustrated by Garth Williams      NULL\n32      The Ginger Man  22.87   book    1955    J. P. Donleavy  NULL",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "preview",
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "terminal",
+					"content": "mysql-workbench &"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

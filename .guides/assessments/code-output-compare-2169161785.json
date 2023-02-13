@@ -1,0 +1,56 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-2169161785",
+	"source": {
+		"name": "Exercise 12",
+		"showName": true,
+		"instructions": "Write a stored procedure named <code>spGetSalesQuantAllItemsThres</code> that retrieves the total number of units sold of all items, and outputs the item <code>id</code>s and the total number of units sold for each item, sorted in descending order of the total number of units sold.  Pass an argument to the stored procedure (<code>INT</code> data type) and output only those items having sold at least that number of items.  Use the field name <code>item_qty</code> to represent the total number of units sold of each item.",
+		"command": "mysql -e \"USE sales; CALL spGetSalesQuantAllItemsThres(5);\"",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "id\titem_qty\n50\t18\n41\t11\n42\t10\n35\t8\n47\t8\n17\t8\n51\t8\n22\t8\n27\t7\n40\t7\n9\t7\n15\t6\n37\t6\n12\t5\n13\t5\n4\t5\n26\t5\n16\t5\n6\t5\n49\t5\n28\t5\n29\t5\n20\t5\n21\t5\n0\t5\n11\t5\n",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "preview",
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "terminal",
+					"content": "mysql-workbench &"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

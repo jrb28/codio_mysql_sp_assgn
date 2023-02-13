@@ -1,0 +1,21 @@
+{
+	"id": "13a12f6d-9151-7d71-4eaa-4cf64194bf08",
+	"title": "Save Your Database",
+	"files": [
+		{
+			"path": "#terminal: mysql-workbench &",
+			"action": "open"
+		},
+		{
+			"path": "#preview: https://{{domain3050}}/",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "2-panels-tree"
+}

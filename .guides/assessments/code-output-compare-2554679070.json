@@ -1,0 +1,56 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-2554679070",
+	"source": {
+		"name": "Exercise 6",
+		"showName": true,
+		"instructions": "Repeat Exercise 4 in a new stored procedure, named <code>spGetItemsMidPriceFlex</code>, that accepts the minimum and maximum price limits as input parameters.  Note from the definition of the <code>item</code> table that the <code>price</code> field is of the <code>FLOAT</code> data type.  Pass the arguments to the stored procedure using the order of, first, the minimum price and, then, the maximum price.",
+		"command": "mysql -e \"USE sales;  CALL spGetItemsMidPriceFlex(7.00, 10.00);\"",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "id\tdescription\tprice\tcategory\tyear\tauthor\tstudio\n38\tTitanic\t7.47\tmovie\t1998\tNULL\tNULL\n21\tOne Hundred Years of Solitude (Cien años de soledad)\t7.89\tbook\t1967\tGabriel García Márquez\tNULL\n40\tAvatar\t8.22\tmovie\t2010\tNULL\tNULL\n24\tThe Common Sense Book of Baby and Child Care\t8.38\tbook\t1946\tBenjamin Spock\tNULL\n6\tThe Lion, the Witch and the Wardrobe\t9.53\tbook\t1950\tC. S. Lewis\tNULL\n35\tSnow White and the Seven Dwarfs\t9.72\tmovie\t1994\tNULL\tNULL\n34\tFinding Nemo\t9.77\tmovie\t2003\tNULL\tNULL\n",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "preview",
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "terminal",
+					"content": "mysql-workbench &"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

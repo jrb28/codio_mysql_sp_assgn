@@ -1,0 +1,10 @@
+{
+	"id": "3821694f-8c20-32ac-1650-ebe8d2f6334a",
+	"type": "section",
+	"title": "Exercises",
+	"order": [
+		"Basic-Stored-Procedures-with-No-Arguments-3a31",
+		"Stored-Procedures-with-SELECT-Queries-and-Hard-Coded-Conditional-Phrases-1ea2",
+		"Stored-Procedures-with-SELECT-Queries-and-Either-Joins-or--Input-Parameters-and-Conditional-Phrases-db32"
+	]
+}

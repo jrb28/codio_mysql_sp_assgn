@@ -1,0 +1,56 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-1829787822",
+	"source": {
+		"name": "Exercise 2",
+		"showName": true,
+		"instructions": "Create a stored procedure named <code>spGetOrders</code> that retrieves all rows and all fields from the <code>order</code> table in ascending order of the <code>id</code> field.  Retrieve all fields using the <code>*</code> operator rather than manually typing the field names.",
+		"command": "mysql -e \"USE sales; CALL spGetOrders;\"",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "id      date_placed\n0       2023-01-04\n1       2023-01-04\n2       2023-01-05\n3       2023-01-06\n4       2023-01-06\n5       2023-01-06\n6       2023-01-07\n7       2023-01-08\n8       2023-01-09\n9       2023-01-09\n10      2023-01-09\n11      2023-01-10\n12      2023-01-11\n13      2023-01-12\n14      2023-01-13\n15      2023-01-14\n16      2023-01-14\n17      2023-01-15\n18      2023-01-16\n19      2023-01-16\n20      2023-01-17\n21      2023-01-17\n22      2023-01-18\n23      2023-01-19\n24      2023-01-19\n25      2023-01-20\n26      2023-01-20\n27      2023-01-20\n28      2023-01-20\n29      2023-01-21\n30      2023-01-22\n31      2023-01-23\n32      2023-01-24\n33      2023-01-25\n34      2023-01-25\n35      2023-01-26\n36      2023-01-27\n37      2023-01-28\n38      2023-01-29\n39      2023-01-30\n40      2023-01-30\n41      2023-01-31\n42      2023-02-01\n43      2023-02-01\n44      2023-02-02\n45      2023-02-03\n46      2023-02-03\n47      2023-02-03\n48      2023-02-03\n49      2023-02-03\n50      2023-02-04\n51      2023-02-04\n52      2023-02-05\n53      2023-02-06\n54      2023-02-07\n55      2023-02-07\n56      2023-02-07\n57      2023-02-08\n58      2023-02-09\n59      2023-02-09\n60      2023-02-10\n61      2023-02-11\n62      2023-02-12\n63      2023-02-13\n64      2023-02-13\n65      2023-02-14\n66      2023-02-15\n67      2023-02-16\n68      2023-02-17\n69      2023-02-18\n70      2023-02-18\n71      2023-02-18\n72      2023-02-19\n73      2023-02-19\n74      2023-02-20\n75      2023-02-21\n76      2023-02-21\n77      2023-02-22\n78      2023-02-23\n79      2023-02-24\n80      2023-02-25\n81      2023-02-25\n82      2023-02-26\n83      2023-02-27\n84      2023-02-28\n85      2023-03-01\n86      2023-03-02\n87      2023-03-02\n88      2023-03-03\n89      2023-03-04\n90      2023-03-05\n91      2023-03-05\n92      2023-03-05\n93      2023-03-06\n94      2023-03-07\n95      2023-03-08\n96      2023-03-09\n97      2023-03-09\n98      2023-03-10\n99      2023-03-10",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [],
+			"opened": [
+				{
+					"type": "preview",
+					"content": "https://{{domain3050}}/"
+				},
+				{
+					"type": "terminal",
+					"content": "mysql-workbench &"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}
